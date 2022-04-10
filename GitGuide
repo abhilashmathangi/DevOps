@@ -1,0 +1,33 @@
+SVN - Sub Version - Central Server Repository
+git - Distributed version control system
+
+git init					- Initializate git repository
+git --version					- Show the Git Version
+git add <files or .>				- Add files to staging Area
+git commit -m "commit message"			- Commit to git
+git status					- Current status of status for changes
+git config --global user.name <"name">		- for global configuration with name
+git config --global user.email <"email">	- for global configuration with email
+git config user.name <"name">			- for local
+git config user.email <"email">			- for local
+git branch					- list branch
+git branch <name>				- Create branch
+git checkout <name>				- Switch
+git checkout master				- swithch master
+git merge <name>				- merge to branch
+git branch -d <name>	or git branch -D <name>	- delete branch
+git checkout -b <new Name> 			- for creating and checkout to new
+git remote add origin "url"
+git clone "url"
+git pull origin master
+git push origin master
+git stash -u					- clean directory (uncommitted files are not show)
+git stash list
+git stash show
+git stash apply
+git log
+git log --before=<date>
+        --author=<username>
+git revert <commit ID>				- Shows changes in the repo
+git revert HEAD					- revert back to the original
+git rebase master				- 
